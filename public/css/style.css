@@ -1,0 +1,46 @@
+body {
+color:#333333;
+font-family:Arial, Helvetica, sans-serif;
+max-width:650px;
+margin:0 auto;
+padding: 0 16px;
+text-align: center;
+}
+
+footer {
+ margin-top:1.5em;
+ background:darkkhaki;
+ padding:16px;
+ text-align: center;
+ border-top:1px solid #eeeeee;
+ color:black;
+ font-weight:600;
+}
+
+h1 {
+font-size:3rem;
+}
+
+a {
+text-decoration: none;
+margin-right:1.5em;
+color:palevioletred;
+}
+
+img {
+margin-top:2em;
+width:75%;
+}
+
+input{
+border:1px solid #cccccc;
+padding:8px;
+}
+
+button{
+cursor:pointer;
+border:1px solid #888888;
+background: #888888;
+padding:8px;
+color:white;
+}
