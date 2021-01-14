@@ -13,12 +13,14 @@ const forecast=(latitude,longitude,callback)=>{
   callback(response.body.error.message,undefined)
    }
    else{
-
+   
     const temperature=response.body.current.temp_f
  
    const condition=response.body.forecast.forecastday[0].day.condition.text
  
    const daily_rain=response.body.forecast.forecastday[0].day.daily_chance_of_rain
+
+  
 
 
    const weather_info=condition + '.It is currently '+ temperature + ' degress out .' + 'There is a '+ daily_rain + '% chance of daily rain.'
